@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>TodayFeed @ GA</title>
+      <link rel="stylesheet" href="styles/normalize.css" media="screen" charset="utf-8">
+      <link rel="stylesheet" href="styles/html5bp.css" media="screen" charset="utf-8">
+      <link rel="stylesheet" href="styles/style.css" media="screen" charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+          <section class="container">
+            <a href="#" id="homePage"><img class="logo" src="images/TF Logo.svg" alt="TF Logo" /></a>
+            <nav>
+              <ul>
+                <li><a href="#">News Source: <span id="sourceChoice"></span>  &nbsp; &#9660;</a>
+                  <ul>
+                      <li><a href="#" id="newsApi" >News API</a></li>
+                      <li><a href="#" id="redditApi" >Reddit</a></li>
+                      <li><a href="#" id="nyTimesApi" >NY Times</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <section id="search">
+                <input id="searchBar" type="text" name="searchBar" placeholder="Search for news">
+                <a class="searchInput" href="#"><img src="images/search.png" alt="Search Icon" /></a>
+              </section>
+            </nav>
+            <div class="clearfix"></div>
+          </section>
+        </header>
+        <div id="popUp" class="loader hidden">
+          <a href="#" class="closePopUp"><img src="images/close-button.svg" alt="Close Icon"/></a>
+          <div class="contentContainer">
+            <img id="articleImg" src="images/article_placeholder_1.jpg" alt="" />
+            <h1 id="title">Article title here</h1>
+            <p id="description">
+              Article description/content here.
+            </p>
+            <a href="" id="articleUrl" class="popUpAction" type="submit" target="_blank">Read From Source</a>
+          </div>
+        </div>
+        <section id="main" class="container">
+          <p class="loader">Loading Articles..</p>          
+            <section class="featuredImage">
+              <img src="images/article_placeholder_1.jpg" alt="" />
+            </section>
+            <section class="articleContent">
+                <a href="#"><h3>Test article title</h3></a>
+                <h6>Lifestyle - Mike Jones</h6>
+            </section>
+            <section class="impressions">
+              526
+            </section>
+            <div class="clearfix"></div>
+          </article>
+          <article class="article">
+            <section class="featuredImage">
+              <img src="images/article_placeholder_2.jpg" alt="" />
+            </section>
+            <section class="articleContent">
+                <a href="#"><h3>Test article title</h3></a>
+                <h6>Lifestyle</h6>
+            </section>
+            <section class="impressions">
+              526
+            </section>
+            <div class="clearfix"></div>
+          </article>
+          <article class="article">
+            <section class="featuredImage">
+              <img src="images/article_placeholder_2.jpg" alt="" />
+            </section>
+            <section class="articleContent">
+                <a href="#"><h3>Test article title</h3></a>
+                <h6>Lifestyle</h6>
+            </section>
+            <section class="impressions">
+              526
+            </section>
+            <div class="clearfix"></div>
+          </article>
+          <article class="article">
+            <section class="featuredImage">
+              <img src="images/article_placeholder_1.jpg" alt="" />
+            </section>
+            <section class="articleContent">
+                <a href="#"><h3>Test article title</h3></a>
+                <h6>Lifestyle</h6>
+            </section>
+            <section class="impressions">
+              526
+            </section>
+            <div class="clearfix"></div>
+          </article> -->
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script> -->
+        <script type="module" src="js/app.js"></script>
+    </body>
+</html>
